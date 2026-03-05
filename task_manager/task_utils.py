@@ -13,7 +13,7 @@ def mark_task_complete(tasks, index):
 
     if 0 <= index < len(tasks):
         tasks[index]["completed"] = True
-        print("Task markd as complete!")
+        print("Task marked as complete!")
     else:
         print("Invalid task number.")
 

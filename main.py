@@ -1,6 +1,6 @@
 
-from utails import add_task, mark_task_complete, view_pending_tasks, calculate_progress
-from validation import validate_task_input
+from task_manager.task_utils import add_task, mark_task_complete, view_pending_tasks, calculate_progress
+from task_manager.validation import validate_task_input
 
 def main():
     tasks = []
